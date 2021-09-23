@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_mojito.mk
+    $(LOCAL_DIR)/spark_mojito.mk
+
+COMMON_LUNCH_CHOICES := \
+    spark_mojito-user \
+    spark_mojito-userdebug \
+    spark_mojito-eng
