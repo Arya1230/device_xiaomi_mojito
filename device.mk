@@ -8,6 +8,9 @@
 $(call inherit-product, \
     $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 
+# Launcher
+PRODUCT_PACKAGES += \
+    Launcher3
 # A/B
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.1-impl-qti \
