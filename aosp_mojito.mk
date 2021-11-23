@@ -34,7 +34,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # PixelPlusUI OFFICIAL
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.ppui.device_name=RedmiNote10 \
-    ro.ppui.version=3.9 \
-    ro.ppui.version_code=Eternal \
+    ro.ppui.version=3.11 \
+    ro.ppui.version_code=Ignite \
     ro.ppui.is_official=true \
-    ro.ppui.maintainer_name=Arya1230
+    ro.ppui.maintainer_name=Arya&John
